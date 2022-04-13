@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc.iml" filepath="$PROJECT_DIR$/upc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-common/upc-common.iml" filepath="$PROJECT_DIR$/upc-common/upc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-coupon/upc-coupon.iml" filepath="$PROJECT_DIR$/upc-coupon/upc-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-gateway/upc-gateway.iml" filepath="$PROJECT_DIR$/upc-gateway/upc-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-member/upc-member.iml" filepath="$PROJECT_DIR$/upc-member/upc-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-order/upc-order.iml" filepath="$PROJECT_DIR$/upc-order/upc-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-product/upc-product.iml" filepath="$PROJECT_DIR$/upc-product/upc-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-third-party/upc-third-party.iml" filepath="$PROJECT_DIR$/upc-third-party/upc-third-party.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upc-ware/upc-ware.iml" filepath="$PROJECT_DIR$/upc-ware/upc-ware.iml" />
+    </modules>
+  </component>
+</project>

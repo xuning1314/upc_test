@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="upc-product" />
+        <module name="upc-order" />
+        <module name="renren-generator" />
+        <module name="upc-coupon" />
+        <module name="upc-member" />
+        <module name="upc-third-party" />
+        <module name="renren-fast" />
+        <module name="upc-common" />
+        <module name="upc-ware" />
+        <module name="upc-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="upc" target="1.8" />
+      <module name="upc-common" target="1.8" />
+      <module name="upc-coupon" target="1.8" />
+      <module name="upc-gateway" target="1.8" />
+      <module name="upc-member" target="1.8" />
+      <module name="upc-order" target="1.8" />
+      <module name="upc-product" target="1.8" />
+      <module name="upc-third-party" target="1.8" />
+      <module name="upc-ware" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="upc-coupon" options="-parameters" />
+      <module name="upc-gateway" options="-parameters" />
+      <module name="upc-member" options="-parameters" />
+      <module name="upc-order" options="-parameters" />
+      <module name="upc-product" options="-parameters" />
+      <module name="upc-third-party" options="-parameters" />
+      <module name="upc-ware" options="-parameters" />
+    </option>
+  </component>
+</project>
