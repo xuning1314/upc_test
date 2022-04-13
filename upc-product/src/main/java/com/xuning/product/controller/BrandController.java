@@ -40,6 +40,14 @@ public class BrandController {
     //@RequiresPermissions("product:brand:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = brandService.queryPage(params);
+        //TODO RPC Client 想要使用客户端，用 RpcClientUtil 获得 proxy，然后进行方法调用
+            // 将想要远程调用的 Controller 加入 @Service，
+        //        SpuBounds proxy = RpcClientUtil.getRpcClientProxy().getProxy(SpuBounds.class);
+        //        SpuBoundsEntity spuBoundsEntity = new SpuBoundsEntity();
+        //        spuBoundsEntity.setWork(-1);
+        //        spuBoundsEntity.setId(777L);
+        //        spuBoundsEntity.setSpuId(777L);
+        //        proxy.save(spuBoundsEntity);
 
         return R.ok().put("page", page);
     }

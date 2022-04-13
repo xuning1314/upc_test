@@ -1,5 +1,9 @@
 package com.xuning.coupon;
 
+import fun.xuning.rpc.annotation.ServiceScan;
+import fun.xuning.rpc.serializer.CommonSerializer;
+import fun.xuning.rpc.transport.socket.server.SocketServer;
+import fun.xuning.rpc.util.Utils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -53,10 +57,16 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
+@ServiceScan
 public class UpcCouponApplication {
 
     public static void main(String[] args) {
+        //TODO rpc server端，在启动类加上 @ServiceScan，并且在要注册的服务上将 Utils 工具类加到目录下
         SpringApplication.run(UpcCouponApplication.class, args);
+        //将server上下文环境设置成当前服务的上下文
+//        Utils.setApplicationContext1(com.xuning.coupon.Utils.getApplicationContext());
+//        SocketServer socketServer = new SocketServer("127.0.0.1", 9999, CommonSerializer.KRYO_SERIALIZER);
+//        socketServer.start();
     }
 
 }
